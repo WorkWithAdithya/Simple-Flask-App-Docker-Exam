@@ -12,4 +12,4 @@ COPY product_list_app.py .
 
 EXPOSE 5000
 
-CMD ["gunicorn", "-b", "0.0.0.0:5000", "run:app"]
+CMD ["python3", "0.0.0.0:5000", "product_list_app.py"]
