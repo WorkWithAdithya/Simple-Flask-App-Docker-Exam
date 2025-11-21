@@ -8,7 +8,7 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY $srcDir/product_list_app.py .
+COPY product_list_app.py .
 COPY $srcDir/app ./app
 
 EXPOSE 5000
