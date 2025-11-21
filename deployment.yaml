@@ -18,4 +18,4 @@ spec:
       - name: monitorapp
         image: aadithya001/pythonapp:v1
         ports:
-        - containerPort: 5000
+        - containerPort: 5006
