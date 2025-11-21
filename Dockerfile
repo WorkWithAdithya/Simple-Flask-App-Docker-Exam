@@ -9,7 +9,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY product_list_app.py .
-COPY $srcDir/app ./app
+COPY ./app
 
 EXPOSE 5000
 
